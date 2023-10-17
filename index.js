@@ -37,3 +37,5 @@ valAgents.forEach((val) => {
 valAgents.forEach((val) => {
     console.log(val.agentType);
 });
+const agentsVal = valAgents.filter(val => val.agents === true);
+console.log(agentsVal);
